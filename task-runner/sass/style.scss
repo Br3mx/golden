@@ -108,7 +108,43 @@ section {
 }
 
 /* Services */
-.services .container {
+.service-element {
     display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
 }
 
+.services .container {
+    text-align: center;
+    
+}
+.page-title{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.description-page-title{
+    text-align: center;
+    margin-top: -15px;
+     
+}
+
+.element-title {
+    font-family: $font-main;
+    font-size: 20px;
+}
+.description-element{
+    font-weight: lighter;
+    font-family: $font-main;
+    font-size: 12px;
+    color: #3d3d3d;
+}
+.icon {
+    font-size: 40px;
+    color: rgb(255, 222, 73);
+    border: 3px solid rgb(255, 222, 73);
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 15px;
+}
