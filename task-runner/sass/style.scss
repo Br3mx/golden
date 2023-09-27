@@ -148,3 +148,25 @@ section {
     background-color: #ffffff;
     padding: 15px;
 }
+
+/* Portfolio */
+.image-section img{
+    block-size: 300px;
+    object-fit: cover;
+}
+
+.image-section {
+    display: inline-block;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 30px 10px 30px 15px;
+    
+}
+.portfolio .container{
+    text-align: center;
+}
+
+.portfolio {
+    background-color: #f7f0f0;
+}
