@@ -5,7 +5,7 @@ $font-main: 'Martian Mono';
 body {
     margin: 0;
     font-size: 17px;
-    line-height: 1.7;
+    
     
 }
 .container {
@@ -24,7 +24,7 @@ section {
     float: inline-start;
     padding-top: 0px;
     font-family: $font-logo;
-    color: red;
+    color: rgb(255, 222, 73);
     font-size: 30px;
     margin: 0;
     border: 0;
@@ -53,15 +53,58 @@ section {
 }
 .navigation li a{
     text-decoration: none;
-    color: #080101;
+    color: #ffffff;
+}
+.navigation li a:hover{
+    transition: .5s;
+    color: rgb(255, 222, 73);
+}
+/* Splash */
+
+.splash {
+    color: #ffffff;
+    background-position: 50%;
+    background-size: cover;
+
     
-    
+    background-image: url(https://i.postimg.cc/mkm3Qhd5/pexels-mitchel-durfee-6230456.jpg);;
 }
 
 
 
 
-   
+.navigation {
+    background: none;
+}
+.splash-inner{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    margin-bottom: 40px
+}
+.welcome {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: $font-main;
+}
+.meet {
+    font-size: 60px;
+    font-family: $font-main;
+}
 
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    
+    border-radius: 5px;
+    background-color: rgb(255, 222, 73);
+    padding: 20px 30px 20px 30px;
+}
+.btn:hover{
+    transition: 1s;
+    border: none;
+    color: rgb(255, 222, 73);
+    background-color: black;
+}
 
 
